@@ -1,0 +1,15 @@
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.tippy-content {
+  font-family: Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 0.875rem;
+}
+
+section {
+  display: flex;
+}

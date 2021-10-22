@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>tippy.js tooltip</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <header><h3><a href="https://atomiks.github.io/tippyjs/">tippy.js tooltip</a></h3></header>
+    <main>
+      <section>
+        <button id="left">LEFT</button>
+        <button id="right">RIGHT</button>
+      </section>
+      <section>
+        <button class="btn" data-template="one">One</button>
+        <div id="one" style="display: none;">
+          <strong>Details:</strong> <span style="color: hotpink;">this is content for one</span>
+        </div>
+
+        <button class="btn" data-template="two">Two</button>
+        <div id="two" style="display: none;">
+          <strong>Details:</strong> <span style="color: hotpink;">this is content for two</span>
+        </div>
+
+        <button class="btn" data-template="three">Three</button>
+        <div id="three" style="display: none;">
+          <strong>Details:</strong> <span style="color: hotpink;">this is content for three</span>
+        </div>
+
+    </main>
+
+    <script src="https://unpkg.com/@popperjs/core@2/dist/umd/popper.min.js"></script>
+    <script src="https://unpkg.com/tippy.js@6/dist/tippy-bundle.umd.js"></script>
+    <script src="script.js"></script>
+    
+  </body>
+</html>
+
