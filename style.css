@@ -1,3 +1,8 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 30px;
+}
+
 main {
   display: flex;
   align-items: center;
@@ -10,6 +15,18 @@ main {
   font-size: 0.875rem;
 }
 
+.btn, .custom-left, .custom-right {
+  margin-left: 5px;
+}
+
 section {
   display: flex;
+}
+
+a {
+  color: #000;
+  text-decoration: underline;
+}
+a:hover {
+  text-decoration: none;
 }

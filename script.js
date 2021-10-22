@@ -1,4 +1,4 @@
-tippy('#left', {
+tippy('.custom-left', {
   placement: 'top',
   animation: 'fade',
   theme: 'material',
@@ -7,7 +7,7 @@ tippy('#left', {
   maxWidth: 200,
 });
 
-tippy('#right', {
+tippy('.custom-right', {
   placement: 'top',
   animation: 'fade',
   theme: 'material',
